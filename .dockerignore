@@ -1,0 +1,15 @@
+# Ignora tudo dentro da pasta target, menos o seu JAR
+target/*
+!target/despesas-0.0.1-SNAPSHOT.jar
+
+# Ignorar arquivos de controle do git
+.git
+.gitignore
+
+# Ignorar pastas e arquivos da IDE
+.idea
+*.iml
+
+# Ignorar arquivos temporários e logs
+*.log
+*.tmp
